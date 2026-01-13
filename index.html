@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Engagement Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Employee Engagement Survey</h1>
+    <p class="subtitle">All responses are confidential</p>
+
+    <form id="surveyForm">
+        <h2>Survey Questions</h2>
+
+        <label>1. I feel motivated to give my best at work.</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Strongly Agree</option>
+            <option>Agree</option>
+            <option>Neutral</option>
+            <option>Disagree</option>
+            <option>Strongly Disagree</option>
+        </select>
+
+        <label>2. I am satisfied with my current job role.</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Strongly Agree</option>
+            <option>Agree</option>
+            <option>Neutral</option>
+            <option>Disagree</option>
+            <option>Strongly Disagree</option>
+        </select>
+
+        <label>3. I receive recognition for my work.</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Strongly Agree</option>
+            <option>Agree</option>
+            <option>Neutral</option>
+            <option>Disagree</option>
+            <option>Strongly Disagree</option>
+        </select>
+
+        <label>4. I have a healthy work-life balance.</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Strongly Agree</option>
+            <option>Agree</option>
+            <option>Neutral</option>
+            <option>Disagree</option>
+            <option>Strongly Disagree</option>
+        </select>
+
+        <label>5. Communication within the organization is effective.</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Strongly Agree</option>
+            <option>Agree</option>
+            <option>Neutral</option>
+            <option>Disagree</option>
+            <option>Strongly Disagree</option>
+        </select>
+
+        <label>6. I feel valued by my manager.</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Strongly Agree</option>
+            <option>Agree</option>
+            <option>Neutral</option>
+            <option>Disagree</option>
+            <option>Strongly Disagree</option>
+        </select>
+
+        <label>7. I have opportunities for professional growth.</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Strongly Agree</option>
+            <option>Agree</option>
+            <option>Neutral</option>
+            <option>Disagree</option>
+            <option>Strongly Disagree</option>
+        </select>
+
+        <label>8. The workplace culture is positive and inclusive.</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Strongly Agree</option>
+            <option>Agree</option>
+            <option>Neutral</option>
+            <option>Disagree</option>
+            <option>Strongly Disagree</option>
+        </select>
+
+        <label>9. I feel comfortable sharing ideas and feedback.</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Strongly Agree</option>
+            <option>Agree</option>
+            <option>Neutral</option>
+            <option>Disagree</option>
+            <option>Strongly Disagree</option>
+        </select>
+
+        <label>10. I would recommend this company as a good place to work.</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Strongly Agree</option>
+            <option>Agree</option>
+            <option>Neutral</option>
+            <option>Disagree</option>
+            <option>Strongly Disagree</option>
+        </select>
+
+        <button type="button" onclick="showAnalysis()">Submit Survey</button>
+    </form>
+
+    <div id="analysis" class="analysis">
+        <h2>Survey Analysis Summary</h2>
+        <p>
+            Sample responses were collected from five employees across different
+            departments. The overall engagement level appears to be positive.
+        </p>
+        <ul>
+            <li>80% of respondents feel motivated and engaged at work.</li>
+            <li>75% are satisfied with their job roles and responsibilities.</li>
+            <li>Work-life balance received generally positive feedback.</li>
+            <li>Recognition and growth opportunities need improvement.</li>
+            <li>Overall employee engagement is healthy.</li>
+        </ul>
+        <p>
+            Based on the responses, employees are generally satisfied with the work
+            environment. Focused efforts on recognition programs and career
+            development can further improve engagement levels.
+        </p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
